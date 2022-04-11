@@ -9,7 +9,7 @@
 import SwiftUI
 
 @main
-struct esaApp: App {
+struct esa: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
