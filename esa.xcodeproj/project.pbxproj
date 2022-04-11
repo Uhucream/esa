@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47484658280491E200C7873A /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47484657280491E200C7873A /* LoginPresenter.swift */; };
+		4748465A280491FF00C7873A /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47484659280491FF00C7873A /* LoginInteractor.swift */; };
 		477A196328043CF300A93DE2 /* esa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A196228043CF300A93DE2 /* esa.swift */; };
 		477A196528043CF300A93DE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A196428043CF300A93DE2 /* ContentView.swift */; };
 		477A196728043CF600A93DE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477A196628043CF600A93DE2 /* Assets.xcassets */; };
@@ -30,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47484657280491E200C7873A /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		47484659280491FF00C7873A /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
 		477A195F28043CF300A93DE2 /* esa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = esa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		477A196228043CF300A93DE2 /* esa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esa.swift; sourceTree = "<group>"; };
 		477A196428043CF300A93DE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -154,6 +158,8 @@
 			isa = PBXGroup;
 			children = (
 				477A19C52804474900A93DE2 /* LoginView.swift */,
+				47484659280491FF00C7873A /* LoginInteractor.swift */,
+				47484657280491E200C7873A /* LoginPresenter.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -287,11 +293,13 @@
 				477A198528043F1700A93DE2 /* Post.swift in Sources */,
 				477A196F28043CF600A93DE2 /* esa.xcdatamodeld in Sources */,
 				477A198128043F1700A93DE2 /* Comment.swift in Sources */,
+				4748465A280491FF00C7873A /* LoginInteractor.swift in Sources */,
 				477A19E2280471A300A93DE2 /* RootView.swift in Sources */,
 				477A196528043CF300A93DE2 /* ContentView.swift in Sources */,
 				477A198328043F1700A93DE2 /* User.swift in Sources */,
 				477A198228043F1700A93DE2 /* Stargazer.swift in Sources */,
 				477A198428043F1700A93DE2 /* Posts.swift in Sources */,
+				47484658280491E200C7873A /* LoginPresenter.swift in Sources */,
 				477A196328043CF300A93DE2 /* esa.swift in Sources */,
 				477A198028043F1700A93DE2 /* Tokens.swift in Sources */,
 				477A19C62804474900A93DE2 /* LoginView.swift in Sources */,
@@ -433,6 +441,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = esa/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "[DEBUG]esa";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -463,6 +472,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = esa/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "[DEBUG]esa";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

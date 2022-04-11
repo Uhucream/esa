@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct LoginView: View {
+    @ObservedObject var presenter = LoginPresenter()
+    
     var body: some View {
         VStack {
             Spacer()
@@ -20,7 +22,7 @@ struct LoginView: View {
             Spacer()
             
             Button(action: {
-                
+                self.presenter.authenticate()
             }) {
                 HStack {
                     Image(systemName: "person.circle")
