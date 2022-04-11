@@ -20,6 +20,7 @@
 		477A198428043F1700A93DE2 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A197C28043F1700A93DE2 /* Posts.swift */; };
 		477A198528043F1700A93DE2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A197D28043F1700A93DE2 /* Post.swift */; };
 		477A198628043F1700A93DE2 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A197E28043F1700A93DE2 /* Comments.swift */; };
+		477A19B8280442C200A93DE2 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 477A19B7280442C200A93DE2 /* KeychainAccess */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				477A19B8280442C200A93DE2 /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +128,9 @@
 			dependencies = (
 			);
 			name = esa;
+			packageProductDependencies = (
+				477A19B7280442C200A93DE2 /* KeychainAccess */,
+			);
 			productName = esa;
 			productReference = 477A195F28043CF300A93DE2 /* esa.app */;
 			productType = "com.apple.product-type.application";
@@ -154,6 +159,9 @@
 				Base,
 			);
 			mainGroup = 477A195628043CF300A93DE2;
+			packageReferences = (
+				477A19B6280442C200A93DE2 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+			);
 			productRefGroup = 477A196028043CF300A93DE2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -395,6 +403,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		477A19B6280442C200A93DE2 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		477A19B7280442C200A93DE2 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 477A19B6280442C200A93DE2 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		477A196D28043CF600A93DE2 /* esa.xcdatamodeld */ = {
