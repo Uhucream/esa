@@ -19,7 +19,6 @@ final class LoginInteractor {
             "code": authCode
         ]
         
-        print(requestParameters)
         var fetchResult: OAuthTokenResponse?
         
         AF
