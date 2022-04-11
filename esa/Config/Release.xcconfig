@@ -1,0 +1,15 @@
+//
+//  Release.xcconfig
+//  esa
+//  
+//  Created by TakashiUshikoshi on 2022/04/11
+//  
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "ENV/ENV-Release"
+
+INFOPLIST_KEY_CFBundleDisplayName = esa
+PRODUCT_BUNDLE_IDENTIFIER = pictures.uhucream-takashi.esa

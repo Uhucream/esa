@@ -1,0 +1,15 @@
+//
+//  Debug.xcconfig
+//  esa
+//  
+//  Created by TakashiUshikoshi on 2022/04/11
+//  
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "ENV/ENV-Debug"
+
+INFOPLIST_KEY_CFBundleDisplayName = [DEBUG]$(TARGET_NAME)
+PRODUCT_BUNDLE_IDENTIFIER = pictures.uhucream-takashi.esa-debug
