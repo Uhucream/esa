@@ -21,6 +21,7 @@
 		477A198528043F1700A93DE2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A197D28043F1700A93DE2 /* Post.swift */; };
 		477A198628043F1700A93DE2 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A197E28043F1700A93DE2 /* Comments.swift */; };
 		477A19B8280442C200A93DE2 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 477A19B7280442C200A93DE2 /* KeychainAccess */; };
+		477A19BB2804436600A93DE2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A19BA2804436600A93DE2 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		477A197C28043F1700A93DE2 /* Posts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
 		477A197D28043F1700A93DE2 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		477A197E28043F1700A93DE2 /* Comments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
+		477A19BA2804436600A93DE2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				477A197528043F1700A93DE2 /* Entities */,
+				477A19B92804436600A93DE2 /* Supporting Files */,
 				477A196228043CF300A93DE2 /* esa.swift */,
 				477A196428043CF300A93DE2 /* ContentView.swift */,
 				477A196628043CF600A93DE2 /* Assets.xcassets */,
@@ -110,6 +113,14 @@
 				477A197E28043F1700A93DE2 /* Comments.swift */,
 			);
 			path = Post;
+			sourceTree = "<group>";
+		};
+		477A19B92804436600A93DE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				477A19BA2804436600A93DE2 /* Constants.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +210,7 @@
 				477A196328043CF300A93DE2 /* esa.swift in Sources */,
 				477A198028043F1700A93DE2 /* Tokens.swift in Sources */,
 				477A198628043F1700A93DE2 /* Comments.swift in Sources */,
+				477A19BB2804436600A93DE2 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
