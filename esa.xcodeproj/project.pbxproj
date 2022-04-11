@@ -87,11 +87,9 @@
 				477A19C928044DE000A93DE2 /* Resource */,
 				477A196228043CF300A93DE2 /* esa.swift */,
 				477A196428043CF300A93DE2 /* ContentView.swift */,
-				477A196628043CF600A93DE2 /* Assets.xcassets */,
 				477A196B28043CF600A93DE2 /* Persistence.swift */,
 				477A196D28043CF600A93DE2 /* esa.xcdatamodeld */,
 				477A196828043CF600A93DE2 /* Preview Content */,
-				477A19C728044AAC00A93DE2 /* Color.xcassets */,
 			);
 			path = esa;
 			sourceTree = "<group>";
@@ -154,6 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				477A19CA28044DF400A93DE2 /* Image */,
+				477A196628043CF600A93DE2 /* Assets.xcassets */,
+				477A19C728044AAC00A93DE2 /* Color.xcassets */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
