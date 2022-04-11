@@ -10,7 +10,7 @@ import Foundation
 import Alamofire
 
 final class LoginInteractor {
-    func fetchOAuthToken(_ authCode: String) -> Token? {
+    func fetchOAuthToken(_ authCode: String) -> OAuthTokenResponse? {
         let requestParameters: [String: String] = [
             "client_id": (Bundle.main.object(forInfoDictionaryKey: "OAUTH_CLIENT_ID") as! String),
             "client_secret": (Bundle.main.object(forInfoDictionaryKey: "OAUTH_CLIENT_SECRET") as! String),
@@ -20,7 +20,7 @@ final class LoginInteractor {
         ]
         
         print(requestParameters)
-        var fetchResult: Token?
+        var fetchResult: OAuthTokenResponse?
         
         AF
             .request(
@@ -29,7 +29,7 @@ final class LoginInteractor {
                 parameters: requestParameters,
                 encoding: URLEncoding(destination: .queryString)
             )
-            .responseDecodable(of: Token.self) { response in
+            .responseDecodable(of: OAuthTokenResponse.self) { response in
                 switch response.result {
                 case .success(let responseData):
                     print("Success: Fetching OAuth Token")

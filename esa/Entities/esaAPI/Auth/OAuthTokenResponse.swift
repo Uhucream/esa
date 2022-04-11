@@ -1,6 +1,6 @@
 import Combine
 
-struct Token: Codable {
+struct OAuthTokenResponse: Codable {
     let access_token: String
     let token_type: String
     let scope: String
