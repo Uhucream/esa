@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		477A196328043CF300A93DE2 /* esaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A196228043CF300A93DE2 /* esaApp.swift */; };
+		477A196328043CF300A93DE2 /* esa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A196228043CF300A93DE2 /* esa.swift */; };
 		477A196528043CF300A93DE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A196428043CF300A93DE2 /* ContentView.swift */; };
 		477A196728043CF600A93DE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477A196628043CF600A93DE2 /* Assets.xcassets */; };
 		477A196A28043CF600A93DE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477A196928043CF600A93DE2 /* Preview Assets.xcassets */; };
@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		477A195F28043CF300A93DE2 /* esa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = esa.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		477A196228043CF300A93DE2 /* esaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esaApp.swift; sourceTree = "<group>"; };
+		477A196228043CF300A93DE2 /* esa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esa.swift; sourceTree = "<group>"; };
 		477A196428043CF300A93DE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		477A196628043CF600A93DE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		477A196928043CF600A93DE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		477A196128043CF300A93DE2 /* esa */ = {
 			isa = PBXGroup;
 			children = (
-				477A196228043CF300A93DE2 /* esaApp.swift */,
+				477A196228043CF300A93DE2 /* esa.swift */,
 				477A196428043CF300A93DE2 /* ContentView.swift */,
 				477A196628043CF600A93DE2 /* Assets.xcassets */,
 				477A196B28043CF600A93DE2 /* Persistence.swift */,
@@ -146,7 +146,7 @@
 				477A196C28043CF600A93DE2 /* Persistence.swift in Sources */,
 				477A196F28043CF600A93DE2 /* esa.xcdatamodeld in Sources */,
 				477A196528043CF300A93DE2 /* ContentView.swift in Sources */,
-				477A196328043CF300A93DE2 /* esaApp.swift in Sources */,
+				477A196328043CF300A93DE2 /* esa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +285,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +315,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
