@@ -22,6 +22,7 @@
 		477A198628043F1700A93DE2 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A197E28043F1700A93DE2 /* Comments.swift */; };
 		477A19B8280442C200A93DE2 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 477A19B7280442C200A93DE2 /* KeychainAccess */; };
 		477A19BB2804436600A93DE2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A19BA2804436600A93DE2 /* Constants.swift */; };
+		477A19BE2804450B00A93DE2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 477A19BD2804450B00A93DE2 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				477A19B8280442C200A93DE2 /* KeychainAccess in Frameworks */,
+				477A19BE2804450B00A93DE2 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +143,7 @@
 			name = esa;
 			packageProductDependencies = (
 				477A19B7280442C200A93DE2 /* KeychainAccess */,
+				477A19BD2804450B00A93DE2 /* Alamofire */,
 			);
 			productName = esa;
 			productReference = 477A195F28043CF300A93DE2 /* esa.app */;
@@ -172,6 +175,7 @@
 			mainGroup = 477A195628043CF300A93DE2;
 			packageReferences = (
 				477A19B6280442C200A93DE2 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				477A19BC2804450B00A93DE2 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 477A196028043CF300A93DE2 /* Products */;
 			projectDirPath = "";
@@ -425,6 +429,14 @@
 				kind = branch;
 			};
 		};
+		477A19BC2804450B00A93DE2 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -432,6 +444,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 477A19B6280442C200A93DE2 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
 			productName = KeychainAccess;
+		};
+		477A19BD2804450B00A93DE2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 477A19BC2804450B00A93DE2 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 
