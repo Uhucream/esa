@@ -73,6 +73,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4748465B280493C300C7873A /* esaAPI */ = {
+			isa = PBXGroup;
+			children = (
+				4748465C280493E800C7873A /* Auth */,
+				477A197728043F1700A93DE2 /* Post */,
+			);
+			path = esaAPI;
+			sourceTree = "<group>";
+		};
+		4748465C280493E800C7873A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				477A197828043F1700A93DE2 /* Tokens.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		477A195628043CF300A93DE2 = {
 			isa = PBXGroup;
 			children = (
@@ -118,7 +135,7 @@
 		477A197528043F1700A93DE2 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				477A197728043F1700A93DE2 /* Post */,
+				4748465B280493C300C7873A /* esaAPI */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -126,7 +143,6 @@
 		477A197728043F1700A93DE2 /* Post */ = {
 			isa = PBXGroup;
 			children = (
-				477A197828043F1700A93DE2 /* Tokens.swift */,
 				477A197928043F1700A93DE2 /* Comment.swift */,
 				477A197A28043F1700A93DE2 /* Stargazer.swift */,
 				477A197B28043F1700A93DE2 /* User.swift */,
