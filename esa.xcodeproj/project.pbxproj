@@ -26,6 +26,7 @@
 		477A19C62804474900A93DE2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A19C52804474900A93DE2 /* LoginView.swift */; };
 		477A19C828044AAC00A93DE2 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477A19C728044AAC00A93DE2 /* Color.xcassets */; };
 		477A19CC28044E0F00A93DE2 /* esa-tori.png in Resources */ = {isa = PBXBuildFile; fileRef = 477A19CB28044E0F00A93DE2 /* esa-tori.png */; };
+		477A19E2280471A300A93DE2 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A19E1280471A300A93DE2 /* RootView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		477A19D5280462B700A93DE2 /* ENV-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "ENV-Debug.xcconfig"; sourceTree = "<group>"; };
 		477A19D62804657300A93DE2 /* ENV-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "ENV-Release.xcconfig"; sourceTree = "<group>"; };
 		477A19D7280465D000A93DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		477A19E1280471A300A93DE2 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		477A19C3280446FE00A93DE2 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				477A19E02804717E00A93DE2 /* Root */,
 				477A19C42804473B00A93DE2 /* Login */,
 			);
 			path = Scenes;
@@ -190,6 +193,14 @@
 				477A19D62804657300A93DE2 /* ENV-Release.xcconfig */,
 			);
 			path = ENV;
+			sourceTree = "<group>";
+		};
+		477A19E02804717E00A93DE2 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				477A19E1280471A300A93DE2 /* RootView.swift */,
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +287,7 @@
 				477A198528043F1700A93DE2 /* Post.swift in Sources */,
 				477A196F28043CF600A93DE2 /* esa.xcdatamodeld in Sources */,
 				477A198128043F1700A93DE2 /* Comment.swift in Sources */,
+				477A19E2280471A300A93DE2 /* RootView.swift in Sources */,
 				477A196528043CF300A93DE2 /* ContentView.swift in Sources */,
 				477A198328043F1700A93DE2 /* User.swift in Sources */,
 				477A198228043F1700A93DE2 /* Stargazer.swift in Sources */,
