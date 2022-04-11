@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		47484658280491E200C7873A /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47484657280491E200C7873A /* LoginPresenter.swift */; };
 		4748465A280491FF00C7873A /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47484659280491FF00C7873A /* LoginInteractor.swift */; };
+		4748466428049C7E00C7873A /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4748466328049C7E00C7873A /* TopView.swift */; };
 		477A196328043CF300A93DE2 /* esa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A196228043CF300A93DE2 /* esa.swift */; };
 		477A196528043CF300A93DE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A196428043CF300A93DE2 /* ContentView.swift */; };
 		477A196728043CF600A93DE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477A196628043CF600A93DE2 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		47484657280491E200C7873A /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		47484659280491FF00C7873A /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		4748466328049C7E00C7873A /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
 		477A195F28043CF300A93DE2 /* esa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = esa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		477A196228043CF300A93DE2 /* esa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esa.swift; sourceTree = "<group>"; };
 		477A196428043CF300A93DE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,14 @@
 				477A197828043F1700A93DE2 /* OAuthTokenResponse.swift */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		4748466128049BFA00C7873A /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				4748466328049C7E00C7873A /* TopView.swift */,
+			);
+			path = Top;
 			sourceTree = "<group>";
 		};
 		477A195628043CF300A93DE2 = {
@@ -164,6 +174,7 @@
 		477A19C3280446FE00A93DE2 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				4748466128049BFA00C7873A /* Top */,
 				477A19E02804717E00A93DE2 /* Root */,
 				477A19C42804473B00A93DE2 /* Login */,
 			);
@@ -312,6 +323,7 @@
 				4748465A280491FF00C7873A /* LoginInteractor.swift in Sources */,
 				477A19E2280471A300A93DE2 /* RootView.swift in Sources */,
 				477A196528043CF300A93DE2 /* ContentView.swift in Sources */,
+				4748466428049C7E00C7873A /* TopView.swift in Sources */,
 				477A198328043F1700A93DE2 /* User.swift in Sources */,
 				477A198228043F1700A93DE2 /* Stargazer.swift in Sources */,
 				477A198428043F1700A93DE2 /* Posts.swift in Sources */,
