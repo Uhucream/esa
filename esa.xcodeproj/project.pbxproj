@@ -23,6 +23,9 @@
 		477A19B8280442C200A93DE2 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 477A19B7280442C200A93DE2 /* KeychainAccess */; };
 		477A19BB2804436600A93DE2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A19BA2804436600A93DE2 /* Constants.swift */; };
 		477A19BE2804450B00A93DE2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 477A19BD2804450B00A93DE2 /* Alamofire */; };
+		477A19C62804474900A93DE2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A19C52804474900A93DE2 /* LoginView.swift */; };
+		477A19C828044AAC00A93DE2 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477A19C728044AAC00A93DE2 /* Color.xcassets */; };
+		477A19CC28044E0F00A93DE2 /* esa-tori.png in Resources */ = {isa = PBXBuildFile; fileRef = 477A19CB28044E0F00A93DE2 /* esa-tori.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,9 @@
 		477A197D28043F1700A93DE2 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		477A197E28043F1700A93DE2 /* Comments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
 		477A19BA2804436600A93DE2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		477A19C52804474900A93DE2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		477A19C728044AAC00A93DE2 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		477A19CB28044E0F00A93DE2 /* esa-tori.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "esa-tori.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,13 +82,16 @@
 			isa = PBXGroup;
 			children = (
 				477A197528043F1700A93DE2 /* Entities */,
+				477A19C3280446FE00A93DE2 /* Scenes */,
 				477A19B92804436600A93DE2 /* Supporting Files */,
+				477A19C928044DE000A93DE2 /* Resource */,
 				477A196228043CF300A93DE2 /* esa.swift */,
 				477A196428043CF300A93DE2 /* ContentView.swift */,
 				477A196628043CF600A93DE2 /* Assets.xcassets */,
 				477A196B28043CF600A93DE2 /* Persistence.swift */,
 				477A196D28043CF600A93DE2 /* esa.xcdatamodeld */,
 				477A196828043CF600A93DE2 /* Preview Content */,
+				477A19C728044AAC00A93DE2 /* Color.xcassets */,
 			);
 			path = esa;
 			sourceTree = "<group>";
@@ -123,6 +132,38 @@
 				477A19BA2804436600A93DE2 /* Constants.swift */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		477A19C3280446FE00A93DE2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				477A19C42804473B00A93DE2 /* Login */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		477A19C42804473B00A93DE2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				477A19C52804474900A93DE2 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		477A19C928044DE000A93DE2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				477A19CA28044DF400A93DE2 /* Image */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		477A19CA28044DF400A93DE2 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				477A19CB28044E0F00A93DE2 /* esa-tori.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +233,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				477A196A28043CF600A93DE2 /* Preview Assets.xcassets in Resources */,
+				477A19CC28044E0F00A93DE2 /* esa-tori.png in Resources */,
 				477A196728043CF600A93DE2 /* Assets.xcassets in Resources */,
+				477A19C828044AAC00A93DE2 /* Color.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +256,7 @@
 				477A198428043F1700A93DE2 /* Posts.swift in Sources */,
 				477A196328043CF300A93DE2 /* esa.swift in Sources */,
 				477A198028043F1700A93DE2 /* Tokens.swift in Sources */,
+				477A19C62804474900A93DE2 /* LoginView.swift in Sources */,
 				477A198628043F1700A93DE2 /* Comments.swift in Sources */,
 				477A19BB2804436600A93DE2 /* Constants.swift in Sources */,
 			);
